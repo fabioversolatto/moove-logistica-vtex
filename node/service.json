@@ -1,0 +1,34 @@
+{
+  "memory": 256,
+  "ttl": 120,
+  "timeout": 10,
+  "minReplicas": 2,
+  "maxReplicas": 4,
+  "workers": 1,
+  "routes": {
+    "getkey": {
+      "path": "/_v/moovelogistica/key",
+      "public": true
+    },
+    "savekey": {
+      "path": "/_v/moovelogistica/createKey",
+      "public": true
+    },
+    "createshipment": {
+      "path": "/_v/moovelogistica/createShipment",
+      "public": true
+    },
+    "getshipments": {
+      "path": "/_v/moovelogistica/getShipments",
+      "public": true
+    },
+    "getorders": {
+      "path": "/_v/moovelogistica/getOrders",
+      "public": true
+    },
+    "getorder": {
+      "path": "/_v/moovelogistica/getOrder",
+      "public": true
+    }
+  }
+}

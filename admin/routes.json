@@ -1,0 +1,30 @@
+{
+    "admin.app.moove": {
+        "component": "adminMoove",
+        "path": "/admin/app/moove"
+    },
+    "admin.app.moovehelp": {
+        "component": "adminMooveHelp",
+        "path": "/admin/app/moovehelp"
+    },
+    "admin.app.moovesettings": {
+        "component": "adminMooveSettings",
+        "path": "/admin/app/moovesettings"
+    },
+    "admin.app.moovemanageshipping": {
+        "component": "adminMooveManageShipping",
+        "path": "/admin/app/moovemanageshipping"
+    },
+    "admin.app.moovecreateshipping": {
+        "component": "adminMooveCreateShipping",
+        "path": "/admin/app/moovecreateshipping"
+    },
+    "admin.app.mooveorders": {
+      "component": "adminMooveOrders",
+      "path": "/admin/app/mooveorders"
+    },
+    "admin.app.moovecreateshippingorder": {
+      "component": "adminMooveCreateShippingOrder",
+      "path": "/admin/app/moovecreateshippingorder"
+    }
+}
